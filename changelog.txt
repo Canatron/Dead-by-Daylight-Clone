@@ -1,0 +1,30 @@
+-spectate mode tracking survivors
+
+-added volume, brightness, and quality sliders (for much easier use)
+-can now crouch from sprint (last key pressed gets precedence) and removed crouch spam
+-killer hitstun frames 90 --> 120
+-killer third person removed
+-survivor boostFrames 45 --> 70, boostSpeed x1.8 --> x1.6
+-survivor fov effect added for boostSpeed
+-third person toggle-able instead of held
+-***FIXED SERVER CRASH BUG (on last survivor fatal hit) THANKS HEROKU LOGGING***
+-added skill check messages (and ones that say dont HOLD space...)
+-fixed gen progress bug (on damage goes to 0% glitch)  (thanks for your help aidan...)
+
+-fixed minor bug related to attacking as killer (frame = 1 set twice by client then by server message...)
+-generator damage animation is no longer local, and its been revamped (and you cant spam start it during animation anymore)
+-fixed 3rd person camera (no longer goes through walls)
+-fixed collision displacement... still not continuous (that improved, but still has bugs so its a no go for now)
+-generally updated map step by step...
+
+-changed "engine" to latest version (was 1-2 years outdated)
+-revive time for survivors was halved (20s --> 10s)
+-made vaulting time based instead of frame based
+-no step sounds from gamemode 1 players... (already planned for this... but gamemode was "gameMode" so it didnt work)
+-cont collision added (1 extra raycast to avoid almost all wall phasing)
+-target fps set to 60 (and added setFps function for... debug?)
+-fixed downed rotation glitch
+-added shadows to the game (looks real nice, until a gen goes off and THREE.js shadowmap limitation is revealed...)
+-added hammer and pekka sword weapons which serve no purpose except aesthetic (well pekka glows and gives you away easier...)
+-step sound range significantly reduced.
+-discon message doesnt appear on connect.

@@ -1,0 +1,9 @@
+# Material Count: 2
+
+newmtl Material.001
+Kd 0.230000 0.427000 0.298000
+illum 2
+
+newmtl Material.002
+Kd 0.445098 0.170588 0.034509
+illum 2

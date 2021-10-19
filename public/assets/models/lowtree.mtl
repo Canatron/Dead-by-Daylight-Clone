@@ -1,0 +1,10 @@
+# Blender MTL File: 'lowtree.blend'
+# Material Count: 2
+
+newmtl Material.001
+Kd 0.000000 0.800000 0.000000
+illum 2
+
+newmtl Material.002
+Kd 0.545098 0.270588 0.074509
+illum 2
